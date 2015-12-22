@@ -32,3 +32,8 @@ test('Generator Function should have correct names', function (t) {
   t.equal(generator.Function.displayName, 'GeneratorFunction')
   t.end()
 })
+
+test('GeneratorFunctionPrototype constructor should GeneratorFunction', function (t) {
+  t.equal(generator.FunctionPrototype.constructor, generator.Function)
+  t.end()
+})
