@@ -2,7 +2,7 @@
   "name": "@f/generator",
   "description": "Generator and GeneratorFunction prototypes.",
   "repository": "git://github.com/micro-js/generator.git",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
